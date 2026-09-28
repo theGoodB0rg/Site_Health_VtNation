@@ -1,0 +1,56 @@
+======================================================================
+  VIRTUAL NATION SITE HEALTH AGENT: QUICK USER GUIDE
+  (For Clients, Account Managers, and Non-Technical Reviewers)
+======================================================================
+
+Welcome! You do NOT need any programming knowledge or technical tools 
+to run this system or review its results.
+
+
+OPTION 1: I JUST WANT TO SEE THE RESULTS (FASTEST)
+--------------------------------------------------
+1. Locate the file named "audit_report.txt" in this folder.
+2. Double-click it. It will open in Notepad or your default text editor.
+3. You can read the executive summary and developer action plan right away.
+
+
+OPTION 2: I WANT TO RUN THE TEST LIVE ON WINDOWS (1-CLICK)
+---------------------------------------------------------
+1. Locate the file named "run_audit.bat" in this folder.
+2. Double-click "run_audit.bat".
+3. A black command window will appear for a few seconds, showing the 
+   system testing the target websites.
+4. Once the audit finishes, your computer will automatically open 
+   "audit_report.txt" in Notepad so you can view the fresh report.
+5. You can close the black window by pressing any key on your keyboard.
+
+
+OPTION 3: I AM ON A MAC OR LINUX LAPTOP
+---------------------------------------
+1. Open your "Terminal" app.
+2. Navigate to this folder.
+3. Type the following command and hit Enter:
+   python3 Site_Health_Agent.py
+4. The live audit will display directly on your screen and save to 
+   "audit_report.txt".
+
+
+WHAT THE REPORT SECTIONS MEAN
+-----------------------------
+Each website test produces two clear sections:
+
+1. EXECUTIVE IMPACT SUMMARY:
+   Written in plain business English for company leadership and clients. 
+   It explains whether the website is working, and if broken, how it hurts 
+   customer sign-ups, ad revenue, or brand reputation.
+
+2. ACTIONABLE REMEDIATION PLAN:
+   Written for the engineering team. It provides an immediate hotfix 
+   to get the page back up quickly, plus a permanent root-cause fix 
+   so the problem does not happen again.
+
+
+NEED HELP OR HAVE QUESTIONS?
+----------------------------
+Prepared by: John Olorunfemi
+Email: theregalstarlite@gmail.com
