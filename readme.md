@@ -46,14 +46,6 @@ Optional: if `python` is not on your PATH on Windows, install from [python.org](
 ## How to Clone
 
 ```bash
-# Clone the repository (replace with your actual repo URL)
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
-```
-
-Example once published:
-
-```bash
 git clone https://github.com/theGoodB0rg/Site_Health_VtNation.git
 cd Site_Health_VtNation
 ```
